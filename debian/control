@@ -1,0 +1,12 @@
+Source: ros-jade-object-recognition-capture
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jade-catkin, ros-jade-ecto, ros-jade-object-recognition-core
+Homepage: http://wg-perception.github.io/capture
+Standards-Version: 3.9.2
+
+Package: ros-jade-object-recognition-capture
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-jade-ecto, ros-jade-ecto-image-pipeline, ros-jade-ecto-opencv, ros-jade-ecto-openni, ros-jade-ecto-ros, ros-jade-object-recognition-core
+Description: Capture is a set of tools to capture objects in 3D and perform odometry
