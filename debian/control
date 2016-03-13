@@ -1,0 +1,12 @@
+Source: ros-indigo-object-recognition-capture
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-ecto, ros-indigo-object-recognition-core
+Homepage: http://wg-perception.github.io/capture
+Standards-Version: 3.9.2
+
+Package: ros-indigo-object-recognition-capture
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-ecto, ros-indigo-ecto-image-pipeline, ros-indigo-ecto-opencv, ros-indigo-ecto-openni, ros-indigo-ecto-ros, ros-indigo-object-recognition-core
+Description: Capture is a set of tools to capture objects in 3D and perform odometry
