@@ -1,0 +1,12 @@
+Source: ros-kinetic-object-recognition-capture
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-catkin, ros-kinetic-ecto, ros-kinetic-object-recognition-core
+Homepage: http://wg-perception.github.io/capture
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-object-recognition-capture
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-ecto, ros-kinetic-ecto-image-pipeline, ros-kinetic-ecto-opencv, ros-kinetic-ecto-openni, ros-kinetic-ecto-ros, ros-kinetic-object-recognition-core
+Description: Capture is a set of tools to capture objects in 3D and perform odometry
