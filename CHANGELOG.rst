@@ -2,6 +2,11 @@
 Changelog for package object_recognition_capture
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.2 (2016-04-24)
+------------------
+* compile with OpenCV3
+* Contributors: Vincent Rabaud
+
 0.3.1 (2016-03-13)
 ------------------
 * Use "mono8" for mask and swap brg to rgb
